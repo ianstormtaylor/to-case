@@ -43,6 +43,20 @@ Case.title('what the heck');     // "What the Heck"
 Case.upper('whatTheHeck');       // "WHAT THE HECK"
 ```
 
+## API
+
+### Case(string)
+
+  Determine the case of a `string`.
+  
+### Case[case]\(string\)
+
+  Convert a `string` to a `case`.
+
+### Case.add(name, converter)
+
+  Add a case with the given `name` and a `converter` function.
+
 ## License
 
   MIT
