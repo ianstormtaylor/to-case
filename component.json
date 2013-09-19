@@ -1,0 +1,28 @@
+{
+  "name": "case",
+  "repo": "ianstormtaylor/case",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Simple case detection and conversion for strings.",
+  "keywords": ["case", "upper", "uppercase", "lower", "lowercase", "title", "titlecase", "camel", "camelcase", "snake", "snakecase", "space", "spacecase", "sentence", "sentencecase", "capital", "capitalcase", "dot", "dotcase", "inverse", "inversecase", "slug", "slugcase"],
+  "dependencies": {
+    "ianstormtaylor/to-camel-case": "0.1.1",
+    "ianstormtaylor/to-capital-case": "0.1.0",
+    "ianstormtaylor/to-constant-case": "0.1.1",
+    "ianstormtaylor/to-dot-case": "0.0.1",
+    "ianstormtaylor/to-no-case": "0.1.0",
+    "ianstormtaylor/to-sentence-case": "0.1.0",
+    "ianstormtaylor/to-slug-case": "0.1.1",
+    "ianstormtaylor/to-snake-case": "0.1.1",
+    "ianstormtaylor/to-space-case": "0.1.1",
+    "ianstormtaylor/to-title-case": "0.1.0"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": [
+    "lib/index.js",
+    "lib/cases.js"
+  ],
+  "main": "lib/index.js"
+}

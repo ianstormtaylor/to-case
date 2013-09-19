@@ -1,0 +1,9 @@
+{
+  "name": "case",
+  "repoistory": "git://github.com/ianstormtaylor/case.git",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Simple case conversion and detection for strings.",
+  "keywords": ["case", "upper", "uppercase", "lower", "lowercase", "title", "titlecase", "camel", "camelcase", "snake", "snakecase"],
+  "main": "lib/index.js"
+}

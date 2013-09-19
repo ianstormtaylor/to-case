@@ -1,0 +1,15 @@
+{
+  "name": "escape-regexp",
+  "description": "Escape regular expression special characters",
+  "version": "1.0.0",
+  "keywords": [
+    "escape",
+    "regexp",
+    "utility"
+  ],
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ],
+  "repo": "https://raw.github.com/component/escape-regexp"
+}

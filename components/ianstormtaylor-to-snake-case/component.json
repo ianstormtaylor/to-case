@@ -1,0 +1,22 @@
+{
+  "name": "to-snake-case",
+  "repo": "ianstormtaylor/to-snake-case",
+  "license": "MIT",
+  "version": "0.1.1",
+  "description": "Convert a non-snake-case string to a snake-case string.",
+  "keywords": [
+    "snake",
+    "case",
+    "snakecase",
+    "string"
+  ],
+  "dependencies": {
+    "ianstormtaylor/to-space-case": "0.1.1"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

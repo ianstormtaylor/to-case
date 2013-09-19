@@ -1,0 +1,22 @@
+{
+  "name": "to-capital-case",
+  "repo": "ianstormtaylor/to-capital-case",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Convert a non-capital-case string to a capital-case string.",
+  "keywords": [
+    "capital",
+    "case",
+    "capitalcase",
+    "string"
+  ],
+  "dependencies": {
+    "ianstormtaylor/to-no-case": "0.1.0"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

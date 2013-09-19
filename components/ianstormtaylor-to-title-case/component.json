@@ -1,0 +1,25 @@
+{
+  "name": "to-title-case",
+  "repo": "ianstormtaylor/to-title-case",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Convert a non-title-case string to a title-case string.",
+  "keywords": [
+    "title",
+    "case",
+    "titlecase",
+    "string"
+  ],
+  "dependencies": {
+    "component/escape-regexp": "1.0.2",
+    "ianstormtaylor/map": "0.0.1",
+    "ianstormtaylor/title-case-minors": "0.0.2",
+    "ianstormtaylor/to-capital-case": "0.1.0"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

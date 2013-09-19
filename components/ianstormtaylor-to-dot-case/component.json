@@ -1,0 +1,22 @@
+{
+  "name": "to-dot-case",
+  "repo": "ianstormtaylor/to-dot-case",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Convert a non-dot-case string to a dot-case string.",
+  "keywords": [
+    "dot",
+    "case",
+    "dotcase",
+    "string"
+  ],
+  "dependencies": {
+    "ianstormtaylor/to-space-case": "0.1.1"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
