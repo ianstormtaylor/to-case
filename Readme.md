@@ -1,4 +1,3 @@
-
 # case
 
   Simple case detection and conversion for strings.
@@ -30,19 +29,33 @@ Case conversion:
 ```js
 var Case = require('case');
 
-case.camel('what_the_heck');    // "whatTheHeck"
-case.capital('what the heck');  // "What The Heck"
-case.constant('whatTheHeck');   // "WHAT_THE_HECK"
-case.dot('whatTheHeck');        // "what.the.heck"
-case.inverse('whaT tHe HeCK');  // "WHAt ThE HeCK"
-case.lower('whatTheHeck');      // "what the heck"
-case.sentence('whatTheHeck');   // "what.the.heck"
-case.slug('whatTheHeck');       // "what-the-heck"
-case.snake('whatTheHeck');      // "what_the_heck"
-case.space('what.the.heck');    // "what the heck"
-case.title('what the heck');    // "What the Heck"
-case.upper('whatTheHeck');      // "WHAT THE HECK"
+Case.camel('what_the_heck');     // "whatTheHeck"
+Case.capital('what the heck');   // "What The Heck"
+Case.constant('whatTheHeck');    // "WHAT_THE_HECK"
+Case.dot('whatTheHeck');         // "what.the.heck"
+Case.inverse('whaT tHe HeCK');   // "WHAt ThE HeCK"
+Case.lower('whatTheHeck');       // "what the heck"
+Case.sentence('WHAT THE HECK.'); // "What the heck."
+Case.slug('whatTheHeck');        // "what-the-heck"
+Case.snake('whatTheHeck');       // "what_the_heck"
+Case.space('what.the.heck');     // "what the heck"
+Case.title('what the heck');     // "What the Heck"
+Case.upper('whatTheHeck');       // "WHAT THE HECK"
 ```
+
+## API
+
+### Case(string)
+
+  Determine the case of a `string`.
+  
+### Case[case]\(string\)
+
+  Convert a `string` to a `case`.
+
+### Case.add(name, converter)
+
+  Add a case with the given `name` and a `converter` function.
 
 ## License
 
