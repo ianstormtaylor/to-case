@@ -2,7 +2,7 @@
   "name": "case",
   "repo": "ianstormtaylor/case",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple case detection and conversion for strings.",
   "keywords": ["case", "upper", "uppercase", "lower", "lowercase", "title", "titlecase", "camel", "camelcase", "snake", "snakecase", "space", "spacecase", "sentence", "sentencecase", "capital", "capitalcase", "dot", "dotcase", "inverse", "inversecase", "slug", "slugcase"],
   "dependencies": {
@@ -11,6 +11,7 @@
     "ianstormtaylor/to-constant-case": "0.1.1",
     "ianstormtaylor/to-dot-case": "0.0.1",
     "ianstormtaylor/to-no-case": "0.1.0",
+    "ianstormtaylor/to-pascal-case": "0.0.1",
     "ianstormtaylor/to-sentence-case": "0.1.0",
     "ianstormtaylor/to-slug-case": "0.1.1",
     "ianstormtaylor/to-snake-case": "0.1.1",

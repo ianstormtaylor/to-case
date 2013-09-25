@@ -8,6 +8,7 @@ var cases = {
   capital  : 'This Is A String',
   constant : 'THIS_IS_A_STRING',
   dot      : 'this.is.a.string',
+  pascal   : 'ThisIsAString',
   sentence : 'This is a string',
   slug     : 'this-is-a-string',
   snake    : 'this_is_a_string',
