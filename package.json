@@ -19,7 +19,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "to-camel-case": "~0.2.0",
+    "to-camel-case": "git+http://github.com/ianstormtaylor/to-camel-case#0.2.1",
     "to-capital-case": "~0.1.1",
     "to-sentence-case": "~0.1.1",
     "to-pascal-case": "0.0.2",
