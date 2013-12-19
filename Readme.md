@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/case
+    $ npm install ianstormtaylor/case
 
 ## Example
     
