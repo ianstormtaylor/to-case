@@ -30,5 +30,8 @@
     "to-space-case": "~0.1.2",
     "to-no-case": "~0.1.1",
     "to-title-case": "~0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
   }
 }
