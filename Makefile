@@ -17,4 +17,4 @@ node_modules: package.json
 test-browser: build
 	open test/index.html
 
-.PHONY: test build
+.PHONY: test build test-browser
