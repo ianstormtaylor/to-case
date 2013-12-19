@@ -4,6 +4,34 @@
   "license": "MIT",
   "version": "0.0.1",
   "description": "Simple case conversion and detection for strings.",
-  "keywords": ["case", "upper", "uppercase", "lower", "lowercase", "title", "titlecase", "camel", "camelcase", "snake", "snakecase"],
-  "main": "lib/index.js"
+  "keywords": [
+    "case",
+    "upper",
+    "uppercase",
+    "lower",
+    "lowercase",
+    "title",
+    "titlecase",
+    "camel",
+    "camelcase",
+    "snake",
+    "snakecase"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "to-camel-case": "git+http://github.com/ianstormtaylor/to-camel-case#0.2.1",
+    "to-capital-case": "~0.1.1",
+    "to-sentence-case": "~0.1.1",
+    "to-pascal-case": "0.0.2",
+    "to-constant-case": "~0.1.2",
+    "to-snake-case": "~0.1.2",
+    "to-dot-case": "~0.1.2",
+    "to-slug-case": "~0.1.2",
+    "to-space-case": "~0.1.2",
+    "to-no-case": "~0.1.1",
+    "to-title-case": "~0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  }
 }

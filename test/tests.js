@@ -1,7 +1,13 @@
 describe('case', function () {
 
 var assert = require('assert');
-var kase = require('case');
+var kase;
+
+try {
+  kase = require('case');
+} catch (e) {
+  kase = require('../lib');
+}
 
 var cases = {
   camel    : 'thisIsAString',

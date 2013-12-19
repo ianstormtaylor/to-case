@@ -8,7 +8,13 @@ components: component.json
 clean:
 	rm -fr build components
 
-test: build
+test: node_modules
+	@node_modules/.bin/mocha test/tests.js
+
+node_modules: package.json
+	@npm install
+
+test-browser: build
 	open test/index.html
 
-.PHONY: test build
+.PHONY: test build test-browser
