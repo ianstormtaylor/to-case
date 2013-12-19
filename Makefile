@@ -2,19 +2,19 @@
 build: components
 	@component build --dev
 
+clean:
+	@rm -fr build components node_modules
+
 components: component.json
 	@component install --dev
-
-clean:
-	rm -fr build components
-
-test: node_modules
-	@node_modules/.bin/mocha test/tests.js
 
 node_modules: package.json
 	@npm install
 
-test-browser: build
-	open test/index.html
+test: node_modules
+	@node_modules/.bin/mocha test/tests.js
 
-.PHONY: test build test-browser
+test-browser: build
+	@open test/index.html
+
+.PHONY: clean test test-browser
