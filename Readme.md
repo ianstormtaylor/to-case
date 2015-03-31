@@ -1,17 +1,17 @@
-# case
+# to-case
 
   Simple case detection and conversion for strings.
 
 ## Installation
 
-    $ component install ianstormtaylor/case
-    $ npm install ianstormtaylor/case
+    $ component install ianstormtaylor/to-case
+    $ npm install to-case
 
 ## Example
     
 Case detection:
 ```js
-var Case = require('case');
+var Case = require('to-case');
 
 Case('thisIsAString');      // "camel"
 Case('This Is A String');   // "capital"
@@ -29,21 +29,21 @@ Case('THIS IS A STRING');   // "upper"
 
 Case conversion:
 ```js
-var Case = require('case');
+var to = require('to-case');
 
-Case.camel('what_the_heck');     // "whatTheHeck"
-Case.capital('what the heck');   // "What The Heck"
-Case.constant('whatTheHeck');    // "WHAT_THE_HECK"
-Case.dot('whatTheHeck');         // "what.the.heck"
-Case.inverse('whaT tHe HeCK');   // "WHAt ThE HeCK"
-Case.lower('whatTheHeck');       // "what the heck"
-Case.pascal('what.the.heck');    // "WhatTheHeck"
-Case.sentence('WHAT THE HECK.'); // "What the heck."
-Case.slug('whatTheHeck');        // "what-the-heck"
-Case.snake('whatTheHeck');       // "what_the_heck"
-Case.space('what.the.heck');     // "what the heck"
-Case.title('what the heck');     // "What the Heck"
-Case.upper('whatTheHeck');       // "WHAT THE HECK"
+to.camel('what_the_heck');     // "whatTheHeck"
+to.capital('what the heck');   // "What The Heck"
+to.constant('whatTheHeck');    // "WHAT_THE_HECK"
+to.dot('whatTheHeck');         // "what.the.heck"
+to.inverse('whaT tHe HeCK');   // "WHAt ThE HeCK"
+to.lower('whatTheHeck');       // "what the heck"
+to.pascal('what.the.heck');    // "WhatTheHeck"
+to.sentence('WHAT THE HECK.'); // "What the heck."
+to.slug('whatTheHeck');        // "what-the-heck"
+to.snake('whatTheHeck');       // "what_the_heck"
+to.space('what.the.heck');     // "what the heck"
+to.title('what the heck');     // "What the Heck"
+to.upper('whatTheHeck');       // "WHAT THE HECK"
 ```
 
 ## API

@@ -1,6 +1,6 @@
 {
-  "name": "case",
-  "repoistory": "git://github.com/ianstormtaylor/case.git",
+  "name": "to-case",
+  "repoistory": "git://github.com/ianstormtaylor/to-case.git",
   "license": "MIT",
   "version": "1.0.0",
   "description": "Simple case conversion and detection for strings.",

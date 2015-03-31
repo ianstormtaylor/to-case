@@ -1,6 +1,6 @@
 {
-  "name": "case",
-  "repo": "ianstormtaylor/case",
+  "name": "to-case",
+  "repo": "ianstormtaylor/to-case",
   "license": "MIT",
   "version": "1.0.0",
   "description": "Simple case detection and conversion for strings.",
