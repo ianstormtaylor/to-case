@@ -1,4 +1,8 @@
 
+1.0.1 - May 27, 2015
+--------------------
+* fix `inverse` case, with tests
+
 1.0.0 - March 9, 2014
 ---------------------
 * expose cases
