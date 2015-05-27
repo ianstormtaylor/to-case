@@ -47,4 +47,10 @@ describe('case', function () {
 
 for (var key in cases) method(key);
 
+describe('#inverse', function () {
+  it('should invert case', function () {
+    assert('tHIS iS A sTRING' == kase.inverse('This Is a String'));
+  });
+});
+
 });
