@@ -1,4 +1,8 @@
 
+1.0.2 - January 5, 2016
+-----------------------
+* fix spelling of "repository" in `package.json`
+
 1.0.1 - May 27, 2015
 --------------------
 * fix `inverse` case, with tests

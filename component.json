@@ -2,7 +2,7 @@
   "name": "to-case",
   "repo": "ianstormtaylor/to-case",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple case detection and conversion for strings.",
   "keywords": [
     "case",
