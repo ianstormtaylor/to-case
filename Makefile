@@ -1,20 +1,11 @@
 
-build: components
-	@component build --dev
-
-clean:
-	@rm -fr build components node_modules
-
-components: component.json
-	@component install --dev
-
+# Install node modules.
 node_modules: package.json
 	@npm install
 
-test: node_modules
-	@node_modules/.bin/mocha test/tests.js
+# Run the tests.
+test:
+	@./node_modules/.bin/mocha
 
-test-browser: build
-	@open test/index.html
-
-.PHONY: clean test test-browser
+# Phony targets.
+.PHONY: test

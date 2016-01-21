@@ -1,4 +1,11 @@
 
+2.0.0 - January 21, 2016
+------------------------
+* drop component support
+* update all dependencies
+* cleanup code style
+* add travis ci
+
 1.0.2 - January 5, 2016
 -----------------------
 * fix spelling of "repository" in `package.json`

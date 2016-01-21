@@ -1,37 +1,45 @@
 {
   "name": "to-case",
+  "version": "2.0.0",
+  "description": "Simple case conversion and detection for strings.",
   "repository": "git://github.com/ianstormtaylor/to-case.git",
   "license": "MIT",
-  "version": "1.0.2",
-  "description": "Simple case conversion and detection for strings.",
-  "keywords": [
-    "case",
-    "upper",
-    "uppercase",
-    "lower",
-    "lowercase",
-    "title",
-    "titlecase",
-    "camel",
-    "camelcase",
-    "snake",
-    "snakecase"
-  ],
   "main": "lib/index.js",
   "dependencies": {
-    "to-camel-case": "git+http://github.com/ianstormtaylor/to-camel-case#0.2.1",
-    "to-capital-case": "~0.1.1",
-    "to-sentence-case": "~0.1.1",
-    "to-pascal-case": "0.0.2",
-    "to-constant-case": "~0.1.2",
-    "to-snake-case": "~0.1.2",
-    "to-dot-case": "~0.1.2",
-    "to-slug-case": "~0.1.2",
-    "to-space-case": "~0.1.2",
-    "to-no-case": "~0.1.2",
-    "to-title-case": "~0.1.2"
+    "to-camel-case": "^1.0.0",
+    "to-capital-case": "^1.0.0",
+    "to-constant-case": "^1.0.0",
+    "to-dot-case": "^1.0.0",
+    "to-no-case": "^1.0.0",
+    "to-pascal-case": "^1.0.0",
+    "to-sentence-case": "^1.0.0",
+    "to-slug-case": "^1.0.0",
+    "to-snake-case": "^1.0.0",
+    "to-space-case": "^1.0.0",
+    "to-title-case": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.15.1"
-  }
+    "mocha": "^2.3.4"
+  },
+  "keywords": [
+    "camel",
+    "camelcase",
+    "case",
+    "casing",
+    "lower",
+    "lowercase",
+    "pascal",
+    "pascalcase",
+    "sentence",
+    "sentencecase",
+    "slug",
+    "slugcase",
+    "snake",
+    "snakecase",
+    "string",
+    "title",
+    "titlecase",
+    "upper",
+    "uppercase"
+  ]
 }
